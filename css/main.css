@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+*
+{
+	font-family: Amiko;
+}
+
+.hidden
+{
+	display: none;
+}
+
+/**************************************HOMEPAGE********************************************/
+
+
+/* header edits */
+
+ul
+{
+	float: right;
+	margin-top: 75px;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 30px;
+	border: 1px solid;
+	transition: 0.5s ease;
+}
+
+ul li a:hover
+{
+	background-color: #FF2A03;
+	color: white;
+}
+
+ul li.active a
+{
+	background-color: #FF2A03;
+	color: white;
+}
+
+.logo img
+{
+	float: left;
+	width: 200px;
+	height: auto;
+	padding-top: 16px;
+}
+
+          
+.main      /* to make eveything centered */
+{
+	max-width: 1700px;
+	margin: auto;
+}
+
+/* header edits ends here*/
+
+/* -------------------------------------------------------------*/
+
+/* section edits starts here*/
+
+section
+{
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("../images/1.jpg");
+	background-size: cover;
+	background-position: center 200px;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+
+.titleName
+{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.titleName h1
+{
+	color: white;
+	font-size: 80px;
+}
+
+.titleName h5
+{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-style: italic;	
+}
+
+
+/* section ends here */
+
+/* -------------------------------------------------------------*/
+
+/* footer edits start here..*/
+
+.foot
+{
+	max-width: 1700px;
+	margin: auto;
+}
+
+.foot p
+{
+	color: grey;
+	padding: 10px;
+}
+
+/* footer edits end here..*/
+
+/**************************************HOMEPAGE********************************************/
+
+
+
+/**************************************CONTACTUS********************************************/
+section
+{
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("../images/3.jpg");
+	background-size: cover;
+	background-position: center 200px;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+.contactus
+{
+	float: left;
+	margin-top: 300px;
+}
+
+.contactus input
+{
+	padding: 12px;
+	width: 400px;
+}
+
+.contactus h2
+{
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 35px;
+	border: 1px outset;
+	border-width: 3.5px;
+	padding: 10px;
+	box-sizing: 180px;
+	max-width: 180px;
+
+}
+
+
+::placeholder
+{
+	font-size: 15px;
+}
+
+
+
+
+/**************************************CONTACTUS********************************************/
